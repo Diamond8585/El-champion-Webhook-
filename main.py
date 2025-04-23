@@ -11,11 +11,11 @@ def webhook():
 
     if "signum:BUY" in message:
         print("🟢 Buy signal received!")
-        # TODO: Place BUY order logic
+        # TODO: Add order execution code here
 
     elif "signum:SELL" in message:
         print("🔴 Sell signal received!")
-        # TODO: Place SELL order logic
+        # TODO: Add order execution code here
 
     return {"status": "ok"}, 200
 
